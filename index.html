@@ -1,0 +1,31 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>GoDaddy domains search</title>
+</head>
+<body>
+<div id="divTable">
+  <table id="domains" border="1">
+    <tr>
+      <th id="domainIdCol" rowspan="2">#</th>
+      <th id="domainNameCol" rowspan="2">Домен</th>
+      <th id="domainPremiumCol" rowspan="2">Премиум</th>
+      <th colspan=2>Цена (за 1 год)</th>
+      <th rowspan="2">Request id</th>
+    </tr>
+    <tr>
+      <td>Регистрация</td>
+      <td>Продление</td>
+    </tr>
+  </table>
+</div>
+<div id="responseInfo">
+  <p>Доменная зона верхнего уровня: <input id="domainZone" maxlength="25" size="8" placeholder="com" value=""><button id="startSearch">Поиск</button></p>
+  <p>Всего запросов: <span id="requestsCounts">0</span> (в обработке <span id="requestsNotFinishedCounts">0</span>);</p>
+  <p>Найдено <span id="domainsCounts">0</span> свободных доменов,</p>
+  <p>из них <span id="premiumsCounts">0</span> премиумные.</p>
+</div>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="code.js"></script>
+</body>
+</html>

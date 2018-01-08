@@ -1,0 +1,18 @@
+#divTable {
+}
+table {
+  border-collapse: collapse;
+  float: left;
+  margin-right: 20px;
+}
+td, th {
+  border: 1px solid maroon; 
+  padding: 4px; 
+}
+span {
+  color: maroon;
+  font-weight: 600;
+}
+p {
+  margin: 1px;
+}
